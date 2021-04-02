@@ -1,15 +1,12 @@
 # Custom-Commad-Internsctl
 Custom Command for given specific task.
-General instructions
-1. The approach of solving the Problem solely depends on the Candidate
-2. Make sure to have Draw.io diagrams for the workflowns and application architecture
-3. Every configuration, code written should be pushed on git (Private Repo)
-4. Your are not permitted to share the doc with anyone, even with your colleagues
+
 Scenario There is a customer who came to you with a problem to have a custom linux
 command for his operations. Your task is to understand the problem and create a linux
 command via bash script as per the instructions.
 Command name - internsctl
 Command version - v0.1.0
+
 Section A
 1. I want a manual page of command so that I can see the full documentation of the command.
 For example if you execute the command
@@ -81,10 +78,10 @@ xenonstack@xsd-034:~$ internsctl file getinfo --last-modified hello.txt
   
   
  Configuration of Custom_commands.sh in Linux system
-1.nano~/.bash_profile
+1. nano ~/.bash_profile
 Open the bash file in nano editor
-2.Copy paste the script or write down the script or write down the script and save it by using ctrl+o
-Enter then ctrl+x
-3.source~/.bash_profile
+2. Copy paste the script or write down the script and save it by using ctrl+o and Click Enter
+Then click ctrl+x to exit the nano editor.
+3. source ~/.bash_profile
 Update the source file
-4.Run the commands
+4. Run the custom commands.
