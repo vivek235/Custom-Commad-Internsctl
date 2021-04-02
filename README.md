@@ -23,9 +23,9 @@ I want to execute the following command for -
 Part1 | Level Easy
 I want to get cpu information of my server through the following command:
 $ internsctl cpu getinfo
-Expected Output -
+Expected Output 
 I want similar output as we get from lscpu command
----
+
 I want to get memory information of my server through the following command:
 $ internsctl memory getinfo
 Expected Output
@@ -35,17 +35,18 @@ I want to create a new user on my server through the following command:
 $ internsctl user create <username>
 Note - above command should create user who can login to linux system and access his home
 directory
----
+
 I want to list all the regular users present on my server through the following command:
 $ internsctl user list
----
+
 If want to list all the users with sudo permissions on my server through the following command:
 $ internsctl user list --sudo-only
 Part3 | Advanced Level
 By executing below command I want to get some information about a file
 $ internsctl file getinfo <file-name>
 Expected Output [make sure to have the output in following format only]
-xenonstack@xsd-034:~$ internsctl file getinfo hello.txt
+xenonstack@xsd-034:
+$ internsctl file getinfo hello.txt
 File: hellot.txt
 Access: -rw-r--r--
 Size(B): 5448
